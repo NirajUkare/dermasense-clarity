@@ -155,7 +155,7 @@ function Index() {
     <main id="top">
       <section className="mx-auto max-w-6xl px-5 pb-9 pt-11 md:px-6 md:pb-12 md:pt-14">
         <div className="mb-5 flex items-center gap-2"><span className="border-2 border-ink bg-lime px-3 py-1 text-[11px] font-bold uppercase">Dermatology workspace</span><span className="text-xs font-medium text-muted-foreground">Image → Review → Report</span></div>
-        <h1 className="max-w-4xl font-display text-[clamp(2.7rem,5.5vw,5.25rem)] font-extrabold leading-[1.02]">A clearer path from <span className="text-coral">skin image</span> to <span className="text-cobalt">PDF report.</span></h1>
+        <h1 className="max-w-4xl font-display text-4xl font-extrabold leading-[1.02] sm:text-5xl lg:text-6xl">A clearer path from <span className="text-coral">skin image</span> to <span className="text-cobalt">PDF report.</span></h1>
         <p className="mt-5 max-w-2xl text-base leading-relaxed text-ink/70 md:text-lg">Upload a clinical photo, review the draft findings, and export a report with your final assessment. Made for the moments between patients.</p>
         <Button variant="ink" size="lg" className="mt-6" onClick={() => workspaceRef.current?.scrollIntoView({ behavior: "smooth" })}>Start a report <ArrowDown /></Button>
       </section>
